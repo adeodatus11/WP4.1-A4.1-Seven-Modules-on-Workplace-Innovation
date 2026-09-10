@@ -1,0 +1,49 @@
+[
+  {
+    "file": "Moduł 1 win4smes (2).docx",
+    "paragraphs": 107,
+    "missing_or_reordered": [],
+    "warnings": [
+      "Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')"
+    ]
+  },
+  {
+    "file": "Moduł 2 win4smes (1).docx",
+    "paragraphs": 154,
+    "missing_or_reordered": [],
+    "warnings": [
+      "Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')"
+    ]
+  },
+  {
+    "file": "Moduł 3 win4smes (1).docx",
+    "paragraphs": 149,
+    "missing_or_reordered": [],
+    "warnings": [
+      "Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')"
+    ]
+  },
+  {
+    "file": "WP4.1 A4.1 myśl innowacyjnie.docx",
+    "paragraphs": 141,
+    "missing_or_reordered": [],
+    "warnings": [
+      "Message(type='warning', message='Unrecognised paragraph style: footer (Style ID: Stopka)')"
+    ]
+  },
+  {
+    "file": "WP4.1 A4.1 Seven Modules on Workplace Innovation.docx",
+    "paragraphs": 785,
+    "missing_or_reordered": [],
+    "warnings": [
+      "Message(type='warning', message='Unrecognised paragraph style: TOC Heading (Style ID: Inhaltsverzeichnisberschrift)')",
+      "Message(type='warning', message='Unrecognised paragraph style: toc 1 (Style ID: Verzeichnis1)')",
+      "Message(type='warning', message='Unrecognised paragraph style: toc 3 (Style ID: Verzeichnis3)')",
+      "Message(type='warning', message='Unrecognised paragraph style: toc 2 (Style ID: Verzeichnis2)')",
+      "Message(type='warning', message='Unrecognised run style: Überschrift 1 Zchn (Style ID: berschrift1Zchn)')",
+      "Message(type='warning', message='Unrecognised paragraph style: Text (Style ID: Text)')",
+      "Message(type='warning', message='Unrecognised run style: Text Zchn (Style ID: TextZchn)')",
+      "Message(type='warning', message='Unrecognised paragraph style: Normal (Web) (Style ID: StandardWeb)')"
+    ]
+  }
+]

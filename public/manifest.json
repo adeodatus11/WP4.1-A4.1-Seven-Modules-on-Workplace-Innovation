@@ -1,0 +1,92 @@
+[
+  {
+    "name": "00-przeglad-programu.md",
+    "url": "pliki/zrodlo-01.md",
+    "bytes": 9468,
+    "sha256": "9bd3f1545bdf188d2379567c49350daf38950128080e1f6eb338d7270de05d02"
+  },
+  {
+    "name": "01-modul-wprowadzenie-do-innowacji.md",
+    "url": "pliki/zrodlo-02.md",
+    "bytes": 8162,
+    "sha256": "dabe5c21dc4aae361480f801a1d08642ccc3d244fc0f38f9c4c55de34deb3baa"
+  },
+  {
+    "name": "02-modul-rozwiazywanie-problemow-i-praca-zespolowa.md",
+    "url": "pliki/zrodlo-03.md",
+    "bytes": 10258,
+    "sha256": "18c930e0ccc3991af191d6dda6a17d9c0ea3199474f637c4f004828207fb65fb"
+  },
+  {
+    "name": "03-modul-narzedzia-cyfrowe.md",
+    "url": "pliki/zrodlo-04.md",
+    "bytes": 11629,
+    "sha256": "368bf65426bfab82e009904665b26dae5a9005d04bcb6c8f66ff0f60b98c043b"
+  },
+  {
+    "name": "04-modul-zrownowazony-rozwoj-i-odpowiedzialnosc.md",
+    "url": "pliki/zrodlo-05.md",
+    "bytes": 13847,
+    "sha256": "6b22740ec5f4ac71de7014c626349ad3058d05fafdef215dd8e1ced24637d8f5"
+  },
+  {
+    "name": "05-modul-przedsiebiorczosc-i-intraprzedsiebiorczosc.md",
+    "url": "pliki/zrodlo-06.md",
+    "bytes": 13495,
+    "sha256": "8d1123a7c9e91ac4a0e945dbb3f86cbb742cc6ca627860e65836ce4b40a26eee"
+  },
+  {
+    "name": "06-modul-komunikacja-i-zarzadzanie-zmiana.md",
+    "url": "pliki/zrodlo-07.md",
+    "bytes": 14436,
+    "sha256": "fe57ab7b37c4d0e5446fa3af6c4381d8139fbcb814a31de5a1b7a54b8ad3456b"
+  },
+  {
+    "name": "07-modul-kompetencje-przyszlosci.md",
+    "url": "pliki/zrodlo-08.md",
+    "bytes": 13340,
+    "sha256": "90f68f6f5f63a06e472c9f41ca0fc6d10c36fff70cb4e76df673858f742034ba"
+  },
+  {
+    "name": "08-zrodla-i-cytaty.md",
+    "url": "pliki/zrodlo-09.md",
+    "bytes": 8115,
+    "sha256": "8440881d855f9acb129d6ddb71fa5a357a49d1e13d9880ca7c776f1b3988912c"
+  },
+  {
+    "name": "Moduł 1 win4smes (2).docx",
+    "url": "pliki/zrodlo-10.docx",
+    "bytes": 26524,
+    "sha256": "2a77194d7e5763ffd210ab8303ec1a6ebe817103687295925ebfbbfd6f5de272"
+  },
+  {
+    "name": "Moduł 2 win4smes (1).docx",
+    "url": "pliki/zrodlo-11.docx",
+    "bytes": 29824,
+    "sha256": "07cf85505322cddc1a21275b4f994e0d5ee8e7e84f8bbb74fdea86a7fbfed1cb"
+  },
+  {
+    "name": "Moduł 3 win4smes (1).docx",
+    "url": "pliki/zrodlo-12.docx",
+    "bytes": 24359,
+    "sha256": "9be771c7828fa8da0a6befe82b14774e1eebd1027774092d72bcbb318a9c6f50"
+  },
+  {
+    "name": "WP4.1 A4.1 Seven Modules on Workplace Innovation.docx",
+    "url": "pliki/zrodlo-13.docx",
+    "bytes": 420882,
+    "sha256": "20d498cd958cbac630f2126382e9f084216bd962c731fa4d37063c8cba980ee5"
+  },
+  {
+    "name": "WP4.1 A4.1 Seven Modules on Workplace Innovation.pdf",
+    "url": "pliki/zrodlo-14.pdf",
+    "bytes": 852428,
+    "sha256": "c57953df49b4fe5139dccacaa5031507c0d691f1b4d0374f804ef4f341495f4a"
+  },
+  {
+    "name": "WP4.1 A4.1 myśl innowacyjnie.docx",
+    "url": "pliki/zrodlo-15.docx",
+    "bytes": 340878,
+    "sha256": "afa14210d838ddbe3e4bfb536d0a6050bffa7cf3f23d28a1c2979a2509d1950a"
+  }
+]

@@ -1,0 +1,4 @@
+mammoth==1.12.1
+Markdown==3.10.3
+beautifulsoup4==4.15.0
+lxml>=5.0
