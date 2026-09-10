@@ -32,7 +32,7 @@ for i, p in enumerate(sorted(SRC.iterdir()), 1):
 file_map = {x['name']: x['url'] for x in file_records}
 
 def nav(active):
-    items = [('index.html','Przewodnik'),('program.html','Program'),('wdrozenie.html','Wdrożenie w ZSZ5'),('scenariusze.html','Scenariusze 1–3'),('biblioteka.html','Dokumenty')]
+    items = [('index.html','Przewodnik'),('program.html','Program'),('wdrozenie.html','Wdrożenie w ZSZ5'),('scenariusze.html','Scenariusze 1–3'),('omowienie.html','Omówienie po przejrzeniu'),('biblioteka.html','Dokumenty')]
     return ''.join(f'<a href="{u}"'+(' aria-current="page"' if u==active else '')+f'>{t}</a>' for u,t in items)
 
 def enhance(body):
@@ -90,7 +90,8 @@ for p in mdfiles:
         pager='<nav class="pager" aria-label="Kolejne moduły">'+(f'<a href="modul-{i-1}.html">← Moduł {i-1}</a>' if i>1 else '<a href="program.html">← Założenia programu</a>')+(f'<a href="modul-{i+1}.html">Moduł {i+1} →</a>' if i<7 else '<a href="scenariusze.html">Scenariusze szkolne →</a>')+'</nav>'
     page(links[p.name],title,readmd(p),eyebrow=f'PROGRAM · MODUŁ {i:02} / 07' if 1<=i<=7 else 'PROGRAM · DOKUMENTACJA',intro=briefs[i-1] if 1<=i<=7 else '',note=note,pager=pager)
 
-page('wdrozenie.html','Wdrożenie w ZSZ5',readmd(ROOT/'content/wdrozenie.md'),eyebrow='ADAPTACJA SZKOLNA · OPRACOWANIE',intro='Pięć tematów godzin wychowawczych. Trzy rozwinięte scenariusze. Jedna mapa powiązań z programem.')
+page('wdrozenie.html','Wdrożenie w ZSZ5',readmd(ROOT/'content/wdrozenie.md'),eyebrow='ADAPTACJA SZKOLNA · OPRACOWANIE',intro='Pięć tematów godzin wychowawczych. Trzy rozwinięte scenariusze. Jedna mapa powiązań z programem.',note='Ta strona omawia pierwotne założenia dokumentacji szkolnej. Aktualną propozycję jednodniowych warsztatów dla modułów 1, 2, 4, 5 i 7 opisuje <a href="omowienie.html">Omówienie po przejrzeniu</a>.')
+page('omowienie.html','Omówienie po przejrzeniu',readmd(ROOT/'content/omowienie.md'),eyebrow='OCENA SCENARIUSZY · ZAŁOŻENIA WARSZTATÓW',intro='Co już działa, czego brakuje i jak przygotować jednodniowe warsztaty — maksymalnie dwa moduły jednego dnia.')
 
 audit=[]
 doc_pages=[('Moduł 1 win4smes (2).docx','scenariusz-1.html','Scenariusz szkolny 1'),('Moduł 2 win4smes (1).docx','scenariusz-2.html','Scenariusz szkolny 2'),('Moduł 3 win4smes (1).docx','scenariusz-3.html','Scenariusz szkolny 3'),('WP4.1 A4.1 myśl innowacyjnie.docx','mysl-innowacyjnie.html','Myśl innowacyjnie — dokument szkolny'),('WP4.1 A4.1 Seven Modules on Workplace Innovation.docx','program-oryginal.html','Workplace Innovation & Future Skills Training Program')]
